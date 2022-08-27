@@ -1,0 +1,54 @@
+.userFrame {
+	box-sizing: border-box;
+	display: flex;
+	width: 310px;
+	height: 50px;
+	border: 0.5px solid royalblue;
+	justify-content: space-around;
+	align-items: center;
+	margin: 8px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	cursor: pointer;
+	color: steelblue;
+	transition: 0.4s;
+}
+
+.userFrame:hover {
+	transform: scale(1.05);
+	border: none;
+	background-color: steelblue;
+	color: white;
+	transition: 0.4s;
+}
+
+.btn {
+	cursor: pointer;
+	width: 100px;
+	height: 27px;
+	border-radius: 2px;
+	background-color: white;
+	color: steelblue;
+	border: 1px solid steelblue;
+	transition: 0.4s;
+}
+
+.btn:hover {
+	background-color: steelblue;
+	color: white;
+	transition: 0.4s;
+	border: 0.5px solid royalblue;
+}
+
+#frame {
+	width: 400px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+#userInput {
+	margin: 6px;
+	box-sizing: border-box;
+	padding: 2px 8px;
+	color: steelblue;
+}
